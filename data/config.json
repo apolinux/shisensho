@@ -1,0 +1,95 @@
+{
+    "app-title" : "Shisen Sho V. %version% By @apolinux"
+    ,"name": "shisen-sho"
+    ,"version":"0.2"
+    ,"help" : [
+        "dim: specify the board dimension in rows x cols" ,
+        "tiles: indicate what tiles must be choosen from the tile source and how many of them",
+        "list: is the list of unique tiles to be extracted from source",
+        "multi: is the multiplier of list to obtain boardsize, could be obsolete"
+        ,"logfile: path of file log"
+    ]
+    ,"background-file" : "data/wallpapers/wallpaper1.jpg"
+    ,"tiles-file" : "data/tilescolor3.png"
+    ,"logfile" : false
+    ,"initial-dim" : [14,6]
+    ,"delay-deleting" : 0.3
+    ,"tiles-matrix" : [
+            [
+            "character-1",
+            "character-2",
+            "character-3",
+            "character-4",
+            "character-5",
+            "character-6",
+            "character-7",
+            "character-8",
+            "character-9"
+            ],
+            [
+            "bamboo-1",
+            "bamboo-2",
+            "bamboo-3",
+            "bamboo-4",
+            "bamboo-5",
+            "bamboo-6",
+            "bamboo-7",
+            "bamboo-8",
+            "bamboo-9"
+            ],
+            [
+            "circle-1",
+            "circle-2",
+            "circle-3",
+            "circle-4",
+            "circle-5",
+            "circle-6",
+            "circle-7",
+            "circle-8",
+            "circle-9"
+            ],
+            [   
+            "flower-plum",
+            "flower-orchid",
+            "flower-bamboo",
+            "flower-chrysanthemum",
+            "season-spring",
+            "season-summer",
+            "season-autumn",
+            "season-winter",
+            "blank1"
+            ],
+            [
+            "dragon-red",
+            "dragon-green",
+            "dragon-white",
+            "wind-east",
+            "wind-south",
+            "wind-west",
+            "wind-north",
+            "joker",
+            "blank2"
+            ]
+        ]
+    , "tiles" :[
+        {
+            "dim":[14,6],
+            "list" : ["bamboo-1","bamboo-2","bamboo-3","bamboo-4","bamboo-5","bamboo-6","bamboo-7",
+                "bamboo-8","bamboo-9",
+                "circle-1","circle-2","circle-3","circle-4","circle-5","circle-6","circle-7",
+                "circle-8","circle-9",
+                "dragon-red","dragon-green","dragon-white"
+            ]
+        }
+        ,{
+            "dim":[4,2],
+            "list" : ["season-spring","season-summer","season-autumn","season-winter"]
+        }
+        ,{
+            "dim":[10,4],
+            "list" : ["bamboo-1","bamboo-2","bamboo-3","bamboo-4","character-1","character-2",
+                "character-3","character-4","flower-orchid","flower-bamboo"]
+        }
+        
+    ]
+}
