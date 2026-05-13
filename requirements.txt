@@ -1,9 +1,11 @@
-certifi==2020.4.5.1
-chardet==3.0.4
-docutils==0.16
-idna==2.9
-Pillow==7.1.1
-pkg-resources==0.0.0
-Pygments==2.6.1
-requests==2.23.0
-urllib3==1.25.8
+# Juego (Tkinter + imágenes)
+Pillow>=9.0.0
+
+# Documentación / tooling (opcional)
+docutils>=0.16
+Pygments>=2.6.1
+
+# HTTP: urllib3 >= 2.7.0 evita reenvío de cabeceras sensibles en redirects
+# (Dependabot / GHSA-48p4-8xcf-v9r5 y avisos relacionados)
+requests>=2.31.0
+urllib3>=2.7.0
